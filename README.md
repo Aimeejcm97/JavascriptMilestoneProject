@@ -37,5 +37,7 @@ I developed my code using repl.it in order to easily identify any errors or mist
 
 
 Credits
-
+w3school.com information on what code would be best suited for the calculations within javascript(informational pages used):
+https://www.w3schools.com/js/js_switch.asp
+https://www.w3schools.com/js/js_const.asp
 I recived my inspiration for this project from my mother who always complains about having to keep track of her tabs when she is trying to calculate her income tax for her buisness.
