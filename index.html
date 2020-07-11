@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<h1>Milestone project calculator</h1>
+	<h4>This is a simple project i have created to allow users to perform calculations easily and efficiently.As well as including
+		a small notepad so that you can keep notes on your calculations.</h4>
+
+	<label for="operation" class="label">Operator</label>
+      <br>
+      <div>
+      <select class="selector" id="operation">
+      <option value="add">Add</option>
+      <option value="subtract">Subtract</option>
+      <option value="divide">Divide</option>
+      <option value="multiply">Multiply</option>
+      </select>
+</div>
+      <div class="input">
+      <input type="number" class="ip_1" placeholder="0">
+      <br>
+      <br>
+      <input type="number" class="ip_2"  placeholder="0">
+    </div>
+     
+      <br>
+      <br>
+      <div class="button">
+       <button class="solvebt">Solve</button></div>
+    <div class="answer">
+      <h2>Answer</h2>
+      <h3 class="answer_3"></h3>
+    </div>
+    <script src="script.js"></script>
+  </body>
+  <footer>
+    <textarea rows="10" cols="30">Notes!</textarea>
+  </footer>
+</html>
