@@ -5,12 +5,12 @@ function calculate() {
   const ip_2 = document.querySelector('.ip_2');
   const answer_3 = document.querySelector('.answer_3');
   const operation = document.querySelector('#operation');
-
   let number1 = parseFloat(ip_1.value);
   let number2 = parseFloat(ip_2.value);
   let answer;
 
 
+  
   switch (operation.value) {
 
     case "subtract":
